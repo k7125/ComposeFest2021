@@ -14,9 +14,14 @@
  * limitations under the License.
  */
 
+ext {
+    sourceCompatibility = VERSION_1_8
+}
+
 buildscript {
     ext {
         compose_version = '1.0.4'
+        sourceCompatibility = VERSION_1_8
     }
     repositories {
         google()

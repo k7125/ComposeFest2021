@@ -176,7 +176,7 @@ fun Home() {
         loadWeather()
     }
 
-    val lazyListState = rememberLazyListState()
+    val lazyListState = rememberLazyListState()ƒΩ
 
     // The background color. The value is changed by the current tab.
     // TODO 1: Animate this color change.
